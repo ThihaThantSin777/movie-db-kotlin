@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MovieApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+        <style name="Theme.MovieApplication.TransparentStatusBar" parent="Theme.MovieApplication">
+            <item name="android:fitsSystemWindows">true</item>
+            <item name="android:statusBarColor">@android:color/transparent</item>
+        </style>
+</resources>
